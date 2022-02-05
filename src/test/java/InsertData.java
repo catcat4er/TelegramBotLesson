@@ -21,8 +21,8 @@ public class InsertData {
             subjectsField = $("#subjectsInput"),
             hobbiesField = $("#hobbiesWrapper"),
             stateField = $("#react-select-3-input"),
-            cityField = $("#react-select-4-input"),
-            pictureField = $("#uploadPicture");
+            cityField = $("#react-select-4-input");
+//          pictureField = $("#uploadPicture");
 
 
     @Step ("Start choosen page")
