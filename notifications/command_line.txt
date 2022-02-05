@@ -7,7 +7,7 @@ java  \
 "-DreportLink=https://no.link/" \
 "-Dcomm=Any comment here" \
 "-Dconfig.file=./notifications/telegram_config_local.json" \
--jar ./notifications/allure-notifications-3.1.2.jar
+-jar ./notifications/local_allure-notifications-3.1.2.jar
 
 ########### LOCAL SLACK
 java  \
@@ -16,7 +16,7 @@ java  \
 "-DreportLink=https://no.link/" \
 "-Dcomm=Any comment here" \
 "-Dconfig.file=./notifications/slack_config_local.json" \
--jar ./notifications/allure-notifications-3.1.2.jar
+-jar ./notifications/local_allure-notifications-3.1.2.jar
 
 ########### REMOTE TELEGRAM
 java  \
