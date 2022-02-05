@@ -14,7 +14,7 @@ public class TestWithPageObjects extends TestBase {
                         "Reading", "NCR", "Delhi")
                 .submit()
                 .validation("Name", "Surname", "email@email.email", "Male", "9876543210",
-                        "FU", "22", "June", "1941", "Computer Science",
+                        "Street", "22", "June", "1941", "Computer Science",
                         "Reading", "NCR", "Delhi");
     }
 }
